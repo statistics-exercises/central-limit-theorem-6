@@ -8,8 +8,8 @@ The exercise in the panel on the left will hopefully help you to understand how 
 
 Within the function called `mean_with_errors` you will need to compute the sample mean and the sample variance for your sample of `n` uniform random variables.  You should then be able to calculate lower and upper using your computed values for the sample mean and sample variance and the following python function:
 
-````
+```python
 ppp = scipy.stats.norm.ppf(0.95)
-````
+```
 
 The call above computes the 95th percentile for a standard normal random variable.  i.e. A normal random variable with expectation 0 and variance 1.
